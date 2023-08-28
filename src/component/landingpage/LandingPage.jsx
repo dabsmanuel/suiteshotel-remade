@@ -1,8 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
-import { Autoplay, EffectFade, Navigation } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 import img1 from "../../assets/cover.jpg"
 import img2 from "../../assets/cover2.jpg"
@@ -13,13 +12,12 @@ const LandingPage = () => {
     return (
         <div className="relative">
             <Swiper className='h-full'
-                modules={[EffectFade, Autoplay, Navigation]} 
+                modules={[EffectFade, Autoplay,]} 
                 effect="fade"
                 autoplay={{ delay: 3000 }}
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
-                navigation
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
             >
