@@ -22,6 +22,11 @@ const Blogswiper = () => {
               // pagination={{ clickable: true }}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
+              breakpoints={{
+                  600: {
+                      slidesPerView: 1,
+                  },
+              }}
           >
 
               <SwiperSlide className='grid place-items-center'>
