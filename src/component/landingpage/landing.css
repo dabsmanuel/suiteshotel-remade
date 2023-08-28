@@ -9,3 +9,9 @@
     right: 0;
     padding: 10px;
 }
+
+.swiper-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}

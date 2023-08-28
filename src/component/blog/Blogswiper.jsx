@@ -16,7 +16,7 @@ const Blogswiper = () => {
               modules={[ Pagination, Autoplay]}
               pagination={true}
               spaceBetween={30}
-              slidesPerView={3}
+              slidesPerView={1}
               loop={true}
               autoplay={{ delay: 3000 }}
               // pagination={{ clickable: true }}
@@ -24,7 +24,10 @@ const Blogswiper = () => {
               onSwiper={(swiper) => console.log(swiper)}
               breakpoints={{
                   600: {
-                      slidesPerView: 1,
+                      slidesPerView: 2,
+                  },
+                  900: {
+                      slidesPerView: 3,
                   },
               }}
           >

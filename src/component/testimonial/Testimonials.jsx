@@ -6,7 +6,7 @@ const Testimonials = () => {
     <section>
             <div className="lg:w-[82%] w-[85%] m-auto py-20">
                 <div className="mb-16">
-                  <h2 className="text-center text-5xl mb-4">What People Say</h2>
+                  <h2 className="text-center lg:text-5xl text-4xl mb-4">What People Say</h2>
                   <hr className="w-[9%] mx-auto border-1 border-black" />
                 </div>
                 <Testimonialswiper/>

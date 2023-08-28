@@ -21,7 +21,7 @@ const Footer = () => {
 
   return (
     <section className="bg-[#444] py-6 text-white">
-      <div className="text-center pt-8 pb-6 text-xl">
+      <div className="text-center pt-8 pb-6 lg:text-xl">
         <p>
           &copy; Suites Hotel all rights reserved Copyrights{" "}
           {date}
