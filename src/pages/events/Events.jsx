@@ -10,7 +10,7 @@ const Events = () => {
               <img src={img1} alt="image1" className="w-full h-screen object-fill bg-black bg-opacity-75 brightness-50" />
               <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white">
                   <small className=' uppercase tracking-widest'>Read our</small>
-                  <h1 className='text-7xl pt-8 font-bold'>Blogs & Events</h1>
+                  <h1 className='lg:text-7xl text-5xl pt-8 font-bold'>Blogs & Events</h1>
               </div>
           </div>
           <Blogswiper/>

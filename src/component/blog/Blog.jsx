@@ -6,7 +6,7 @@ const LandingPage = () => {
     return (
         <div className="py-20">
             <div className="mb-16">
-                <h2 className="text-center text-5xl mb-4">Upcoming Events</h2>
+                <h2 className="text-center lg:text-5xl text-4xl mb-4">Upcoming Events</h2>
                 <hr className="w-[9%] mx-auto border-1 border-black" />
             </div>
             <Blogswiper/>

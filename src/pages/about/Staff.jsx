@@ -8,7 +8,7 @@ const Staff = () => {
             <div className='lg:w-[82%] w-[85%] m-auto'>
                 <div className=" py-16">
                     <div className="mb-16">
-                        <h2 className="text-center text-5xl mb-2">Our Staffs</h2>
+                        <h2 className="text-center lg:text-5xl text-4xl mb-2">Our Staffs</h2>
                         <hr className="w-[9%] mx-auto border-1 border-black" />
                     </div>
                 </div>
