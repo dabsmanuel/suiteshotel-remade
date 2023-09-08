@@ -9,7 +9,7 @@ const Gallerypix = () => {
               {
                   gallery.map(({ id, pic }) => {
                       return (
-                          <div key={id} className='hover:opacity-50 transition ease-in-out duration-3000'>
+                          <div key={id} className='hover:opacity-50 transition ease-in-out duration-3000' data-aos="fade-up">
                               <img src={pic} alt="" />
                           </div>
                       )

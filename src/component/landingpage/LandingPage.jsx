@@ -30,7 +30,7 @@ const LandingPage = () => {
 
                 <SwiperSlide>
                     <img src={img1} alt="image1" className=" bg-fixed w-full h-screen object-fill bg-black bg-opacity-75 brightness-50" />
-                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white">
+                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white car">
                         <h1 className='lg:text-7xl text-5xl font-bold'>Welcome To Suites</h1>
                         <p className='uppercase pt-4 tracking-widest text-sm'>Hotel and Suites</p>
                     </div>
@@ -39,7 +39,7 @@ const LandingPage = () => {
 
                 <SwiperSlide>
                     <img src={img2} alt="image1" className=" bg-fixed w-full h-screen object-fill bg-black brightness-50 bg-opacity-75" />
-                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white">
+                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white car">
                         <h1 className='lg:text-7xl text-5xl font-bold'>Unique Experience</h1>
                         <p className='uppercase pt-4 tracking-widest text-sm'>Enjoy with us</p>
                     </div>
@@ -47,7 +47,7 @@ const LandingPage = () => {
 
                 <SwiperSlide>
                     <img src={img3} alt="image1" className="bg-fixed w-full h-screen object-fill brightness-50 bg-black bg-opacity-75" />
-                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white">
+                    <div className="flex flex-col justify-center items-center w-full h-screen text-center absolute bottom-0 text-white car">
                         <h1 className='lg:text-7xl text-5xl font-bold'>Relaxing Room</h1>
                         <p className='uppercase pt-4 tracking-widest text-sm'>your room, your stay</p>
                     </div>

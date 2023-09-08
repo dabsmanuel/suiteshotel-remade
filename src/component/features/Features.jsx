@@ -8,7 +8,7 @@ const Features = () => {
         {
           features.map(({ id, icon, descr }) => {
             return (
-              <div className='text-center' key={id}>
+              <div className='text-center' key={id} data-aos="fade-up">
                 <p className='text-red-500 text-7xl'>{icon}</p>
                 <p className='text-xl'>{descr}</p>
               </div>

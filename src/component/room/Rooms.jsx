@@ -7,7 +7,7 @@ const Rooms = () => {
                 {
                     rooms.map(({ id, pic, description, price, names }) => {
                         return (
-                            <div key={id} className="hover:shadow">
+                            <div key={id} className="hover:shadow" data-aos="fade-up">
                                 <img src={pic} alt={names} className="relative m-auto overflow-hidden w-full ease-in-out duration-300 hover:scale-110 cursor-pointer" />
                                 <div className="bg-white p-4 text-center">
                                     <h2 clasName="lg:text-2xl texts">{description}</h2>
